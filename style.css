@@ -50,12 +50,12 @@ button,input{
     outline: none;
     padding: 6px 12px;
 }
+input{width: 40%;}
 
 
 /*card */
 
 .card{
-    width: 300px;
     background: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
@@ -87,7 +87,25 @@ button,input{
 }
 
 
-@media(max-width-576px){
+@media(max-width:776px){
+    header{
+        padding: 8px;
+    }
+    .container{
+        padding: 10px 8px;
+    }
+    .col-3{
+        width: 50%;
+        padding: 5px;
+    }
+    button,input{
+        padding: 7px;
+    }
+}
+@media(max-width:576px){
+    header{
+        padding: 5px;
+    }
     .container{
         padding: 20px 4px;
     }
@@ -95,5 +113,10 @@ button,input{
         width: 50%;
         padding: 3px;
     }
+    button{
+        padding: 4px;
+        font-size: 10px;
+    }
+
 
 }
