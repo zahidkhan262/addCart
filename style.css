@@ -6,19 +6,32 @@
 }
 /* header */
 header{
-    background: #00c400;
+    background: #2687f7;
     width: 100%;
     padding: 10px 20px;
 }
 .cart{
     background: #0018fb;
     padding: 6px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 .cart span{
     margin: 0 10px;
     color: #fff;
 }
-
+.search-bar{
+    background: #fff;
+    max-width: 200px;
+}
+.search-bar input{
+    width: 84%;
+    background: transparent;
+    border-right: 1px solid gray;
+}
+.search-bar i{
+    color: #000;
+}
 
 
 
@@ -50,7 +63,7 @@ button,input{
     outline: none;
     padding: 6px 12px;
 }
-input{width: 40%;}
+
 
 
 /*card */
