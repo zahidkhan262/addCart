@@ -48,6 +48,10 @@ header{
     width: 25%;
     padding: 10px;
 }
+.col-6{
+    width: 50%;
+    padding: 10px;
+}
 
 .d-flex{
     display: flex;
@@ -123,6 +127,10 @@ button,input{
         padding: 20px 4px;
     }
     .col-3{
+        width: 50%;
+        padding: 3px;
+    }
+    .col-6{
         width: 50%;
         padding: 3px;
     }
